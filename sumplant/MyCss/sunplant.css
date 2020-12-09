@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    list-style: none;
+}
+.wrapper{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+.head-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .loginPage{
+      background: url();
+  
+  }
+  nav .wrapper{
+      padding: 30px 20px;
+      justify-content: space-between;  
+  }
+  nav .toAnotherPage{
+      width: 500px;
+  }
+  nav .toAnotherPage ul{
+      display: flex;
+      flex-direction: row;
+  justify-items:space-between;
+  align-items:flex-end;
+  }
+  nav .toAnotherPage ul li{
+  padding : 0 20px;
+  font-size: 15px;
+  font-weight: 600;
+  }
+  nav .toAnotherPage  a{
+      text-decoration: none;
+      color: #000;
+      position: relative;
+  }
+  nav .toAnotherPage a:hover{
+      text-decoration: none;
+      color: #3f5e2d;
+  }
+  nav .toAnotherPage a span{
+      position: absolute;
+      color:#fff;
+      top:-100%;
+      right: 0;
+      width: 40px;
+      height: 16px;
+      font-size: 12px;
+      text-align: center;
+      background-color: #0fb7eb;
+  }
+  nav .toAnotherPage  a span.triangle::before{
+      content: "123";
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-top: 20px solid  #2c464e;
+      display:inline-block;
+      position: absolute;
+      left: 0;
+  }
+  nav .logoPattern{
+      width: 300px;
+      position:initial;
+  }
+  nav .logoPattern img{
+      display: flex;
+      width: 150px;
+      height: 40px;
+  }
+  nav .rightIcon{
+      width: 400px;
+      display: flex;
+      justify-content:flex-end;
+  }
+  nav .iconItem{
+      padding :10px;
+  }
+  nav .iconItem a{
+      text-decoration: none;
+      color: #000;
+      font-weight: 800;
+  }
+  nav .iconItem img{
+      width: 25px;
+  }
+  nav .iconItem span{
+     float:right;
+     
+     width: 2%;
+  }
+  
+  .firstPage .introduction{
+      width: 400px;
+      margin: 100px;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      box-sizing: border-box;
+      
+  }
+  .firstPage .introductionPic{
+      width: 600px;
+      
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+  }
+  .firstPage .introductionPic img{
+      width: 100%;
+     
+      
+      
+      height: 400px;
+      z-index: 3;
+  
+  }
+  .firstPage .introduction h1{
+      font-size: 50px;
+      font-weight: 100;
+      text-align: initial;
+  }
+  .firstPage .introduction p{
+      line-height:40px;
+      margin: 15px 0 25px;
+      font-size: 15px;
+      text-align: initial;
+  }
+  .firstPage .introduction .shopNow{
+      text-decoration: none;
+      display: inline-block;
+      width: 180px;
+      height: 50px;
+      border-radius: 2px;
+      background: #000;
+      color:#fff;
+      text-align: center;
+      line-height: 50px;
+      transition: all .2s;
+      letter-spacing: 2px;
+      font-size: 12px;
+  }
+  .firstPage .wrapperFirstPage{
+      
+              margin-left: auto;
+              margin-right: auto;
+              display: flex;
+              flex-direction:row;
+              flex-wrap: wrap;
+              text-align: center;
+  }
+  .secondPageTitle .wrapper {
+      flex-direction: column;
+      text-align: center;
+  }
+  .secondPageTitle{
+      margin-top: 50px;
+      margin-bottom: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+  .secondPageTitle h1{
+      font-size: 25px;
+      color:#396120;
+      line-height: 1.5;
+      margin-bottom: 20px;
+  }
+  .secondPageTitle em{
+      font-size: 10px;
+      flex-direction: column;
+      text-align: center;
+      color:rgb(143, 141, 141);
+  }
+  .thirdPage .item-list-left,
+  .thirdPage .item-list-right{
+      width: 38%;
+      padding: 30px;
+  }
+  .thirdPage .leftIntroduction h3,
+  .rightIntroduction h3{
+      line-height: 40px;
+      font-size: 20px;
+      letter-spacing: 1px;
+  }
+  .thirdPage .leftIntroduction p,
+  .rightIntroduction p{
+      font-size: 8px;
+      color:gray;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+  }
+  .thirdPage .leftIntroduction{
+      text-align: right;
+  }
+  .commodity .wrapper{
+      width: 1200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+  .commodity{
+      margin-bottom: 100px;
+  }
+  .commodity .title{
+      text-align: justify;
+      justify-items: center;
+      color: #518432;
+      font-size: 45px;
+      font-weight: lighter;
+  }
+  
+  .commodity .wrapper .itemList {
+      
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .commodity .wrapper .itemList .item{
+      width: 380px;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      line-height: 30px;
+      position: sticky;
+      box-sizing: border-box;
+  }
+  .commodity .item img{
+      transition: .4s;
+  }
+  .commodity .item img:hover{
+      filter: opacity(50%);
+  }
+  .commodity .item .saleTag{
+      position:absolute;
+      top:20px;
+      right:20px;
+      background: #518432;
+      color:#fff;
+      width: 50px;
+      height: 30px;
+      font-weight: 700;
+      font-size: 12px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      z-index: 2;
+  }
+  .commodity .item .saleOutTag{
+      position: absolute;
+      top:50px;
+      left:20px;
+      background: #518432;
+      color:#fff;
+      width: 80px;
+      height: 25px;
+      line-height: 25px;
+      font-weight: 700;
+      font-size: 12px;
+      z-index: 2;
+  }
+  .commodity .item img {
+      width: 100%;
+  }
+  .commodity .item h4 a{
+      text-decoration: none;
+      color: #000;
+      text-emphasis: none;
+  }
+  .commodity .item p{
+      font-weight:bold;
+  }
+  .commodity .item p span{
+      font-size: 15px;
+      font-weight: bold;
+      padding-right: 15px;
+  }
+  .commodity .item h4 a:hover{
+      color: #518432;
+  }
+  .videoPage{
+      background: url() no-repeat;
+      margin-bottom: 70px;
+  }
+  .videoPage .wrapper{
+      padding : 80px 0;
+  }
+  .videoPage .leftIntroduction{
+      width: 50%;
+      padding: 0 50px 0 150px;
+      margin: 150px 0;
+  }
+  .videoPage .leftIntroduction h1{
+      font-size: 25px;
+      color: #518432;
+      line-height: 2;
+      letter-spacing: 3px;
+  }
+  .videoPage .leftIntroduction p{
+      font-size: 10px;
+      line-height: 2;
+      margin-bottom: 30px;
+  }
+  .videoPage .leftIntroduction a{
+      text-decoration: none;
+      color:#000;
+      display: inline-block;
+      border: 1px solid #000;
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: all .3s;
+  }
+  .videoPage .leftIntroduction a span{
+  
+      font-weight: lighter; 
+      position: absolute;
+      left: 10%;
+      transition: .3s;
+  }
+  .videoPage .leftIntroduction a::before{
+      content: "";
+      display: block;
+      position: absolute;
+      font-weight: lighter;
+      width: 100%;
+      height: 100%;
+      background: #518432;
+      color:#fff;
+      transform: translateY(-100%);
+      transition: all .3s;  
+  }
+  .videoPage .leftIntroduction a:hover:before{
+      transform: translateY(0);
+  }
+  .videoPage .leftIntroduction a:hover span{
+      color:#fff;
+  }
+  .videoPage .video{
+      position: relative;
+      width: 50%;
+      align-self: start;
+  }
+  .videoPage .video a{
+      display: inline-block;
+      width: 100%;
+      height: 400px;
+  }
+  .videoPage .video img{
+      position: absolute;
+      cursor: pointer;
+      width: 100%;
+      height: 400px;
+      z-index: 2;
+      top: 0;
+      left: 0;
+  }
+  .shopIG{
+      margin-bottom: 100px;
+  }
+  .shopIG .wrapper{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+  }
+  .shopIG .IGPattern{
+      
+      text-align: center;
+      letter-spacing: 3px;
+      line-height: 50px;
+  }
+  .shopIG .IGShow {
+      width: calc(100%/4);
+      
+      
+      padding: 6px;
+  
+  }
+  .IGShow img{
+      width: 100%;
+  }
+  .IGShow img:hover{
+      filter: brightness(50%);
+  }
+  .footer .wrapper{
+      width: 100%;
+  
+      display: flex;
+      flex-direction:column;
+      flex-wrap: wrap;
+      background-color: rgb(245, 240, 240);
+  }
+  .footer .logo{
+      margin: 30px ;
+  }
+  .footer .logo img{
+      width: 200px;
+      position:initial;
+  }
+  .footer .aboutUs ul{
+     display: flex;
+     flex-direction: row;
+  }
+  .footer .aboutUs li a{
+      margin: 40px;
+      font-size: 10px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #000;
+  }
+  .footer .aboutUs li + li::before{
+      content: '';
+      background-color: #c2c1c1;
+      width: 20px;
+      height: 1px;
+      display: inline-table;
+      vertical-align: middle;
+  }
+  .footer .socialMediaIcon .icon{
+      text-decoration: none;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      margin:30px 10px;
+      position: relative;
+      overflow: hidden;
+  }
+  .footer .socialMediaIcon .icon i{
+      position: absolute;
+      transform: translate(-50%,100%);
+  }
+  .footer .socialMediaIcon .icon:before{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #518432;
+      transform: translateY(100%);
+      transition: all .3s; 
+  }
+  .footer .socialMediaIcon .icon:hover:before{
+      transform: translateY(0);
+  }
+  .footer .copyright{
+      color: rgb(201, 198, 198);
+      margin: 1px 100px;
+      font-size: 15px;
+  }
+  
+  
